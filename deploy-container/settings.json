@@ -1,7 +1,10 @@
 {
-  "workbench.colorTheme": "Default Dark+",
+  "workbench.iconTheme": "vscode-icons",
+  "workbench.colorTheme": "Atom One Dark",
   "git.postCommitCommand": "sync",
   "git.enableSmartCommit": true,
   "git.confirmSync": false,
-  "git.autofetch": true
+  "git.autofetch": true,
+  "sync.autoDownload": true,
+  "sync.gist": "5820d4557de2f8f62738acfb99eff1c0"
 }
