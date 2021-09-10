@@ -8,7 +8,7 @@ COPY deploy-container/settings.json .local/share/code-server/User/settings.json
 
 # Use bash shell
 ENV SHELL=/bin/bash
-RUN sudo rm /bin/sh && ln -s /bin/bash /bin/sh
+RUN sudo rm /bin/sh && sudo ln -s /bin/bash /bin/sh
 ADD ./.profile.d /app/.profile.d
 
 # Install unzip + rclone (support for remote filesystem)
