@@ -9,7 +9,8 @@ COPY deploy-container/settings.json .local/share/code-server/User/settings.json
 # Use bash shell
 ENV SHELL=/bin/bash
 RUN sudo rm /bin/sh && sudo ln -s /bin/bash /bin/sh
-ADD ./.profile.d /app/.profile.d
+ADD ./.profile.d/heroku-exec.sh /app/.profile.d/heroku-exec.sh
+RUN chmod a+x /app/.profile.d/heroku-exec.sh
 
 # Install unzip + rclone (support for remote filesystem)
 RUN sudo apt-get update && sudo apt-get install unzip -y
