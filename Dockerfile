@@ -36,6 +36,7 @@ RUN sudo chown -R coder:coder /home/coder/.local
 
 RUN code-server --install-extension akamud.vscode-theme-onedark
 RUN code-server --install-extension shan.code-settings-sync
+RUN code-server --install-extension vscode-icons-team.vscode-icons
 
 # Install NodeJS
 RUN sudo curl -fsSL https://deb.nodesource.com/setup_15.x | sudo bash -
