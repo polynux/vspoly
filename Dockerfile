@@ -48,8 +48,6 @@ RUN code-server --install-extension naumovs.color-highlight
 RUN code-server --install-extension anseki.vscode-color
 RUN code-server --install-extension dbaeumer.vscode-eslint
 RUN code-server --install-extension donjayamanne.git-extension-pack
-RUN code-server --install-extension donjayamanne.githistory
-RUN code-server --install-extension bierner.github-markdown-preview
 RUN code-server --install-extension eamodio.gitlens
 RUN code-server --install-extension oderwat.indent-rainbow
 RUN code-server --install-extension bierner.markdown-checkbox
