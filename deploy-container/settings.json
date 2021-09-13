@@ -5,6 +5,35 @@
   "git.enableSmartCommit": true,
   "git.confirmSync": false,
   "git.autofetch": true,
-  "sync.autoDownload": true,
-  "sync.gist": "5820d4557de2f8f62738acfb99eff1c0"
+  "editor.formatOnSave": true,
+  "prettier.printWidth": 120,
+  "files.eol": "\n",
+  "editor.largeFileOptimizations": false,
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.tabSize": 2
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.tabSize": 2
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.tabSize": 2
+  },
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.tabSize": 2
+  },
+  "prettier.arrowParens": "avoid",
+  "prettier.trailingComma": "none",
+  "editor.cursorBlinking": "smooth",
+  "editor.cursorStyle": "line",
+  "editor.fontSize": 16,
+  "editor.minimap.maxColumn": 80,
+  "terminal.integrated.fontFamily": "Fira Code Retina",
+  "editor.fontFamily": "Fira Code Retina",
+  "editor.fontLigatures": true,
+  "terminal.integrated.cursorStyle": "line",
+  "terminal.integrated.cursorBlinking": true
 }

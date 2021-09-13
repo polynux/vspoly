@@ -37,12 +37,30 @@ RUN sudo chown -R coder:coder /home/coder/.local
 
 # -----------
 
+# Install fira-code
+RUN sudo apt-get install fonts-firacode
+
+# Install extensions
 RUN code-server --install-extension akamud.vscode-theme-onedark
-RUN code-server --install-extension shan.code-settings-sync
 RUN code-server --install-extension vscode-icons-team.vscode-icons
+RUN code-server --install-extension coenraads.bracket-pair-colorizer-2
+RUN code-server --install-extension naumovs.color-highlight
+RUN code-server --install-extension anseki.vscode-color
+RUN code-server --install-extension dbaeumer.vscode-eslint
+RUN code-server --install-extension donjayamanne.git-extension-pack
+RUN code-server --install-extension donjayamanne.githistory
+RUN code-server --install-extension bierner.github-markdown-preview
+RUN code-server --install-extension eamodio.gitlens
+RUN code-server --install-extension oderwat.indent-rainbow
+RUN code-server --install-extension bierner.markdown-checkbox
+RUN code-server --install-extension bierner.markdown-preview-github-styles
+RUN code-server --install-extension eg2.vscode-npm-script
+RUN code-server --install-extension christian-kohler.npm-intellisense
+RUN code-server --install-extension esbenp.prettier-vscode
+
 
 # Install NodeJS
-RUN sudo curl -fsSL https://deb.nodesource.com/setup_15.x | sudo bash -
+RUN sudo curl -fsSL https://deb.nodesource.com/setup_14.x | sudo bash -
 RUN sudo apt-get install -y nodejs
 
 # Port
