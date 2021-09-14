@@ -62,7 +62,7 @@ RUN sudo curl -fsSL https://deb.nodesource.com/setup_14.x | sudo bash -
 RUN sudo apt-get install -y nodejs
 
 # Install localtunnel and nextjs
-RUN npm i -g localtunnel next
+# RUN npm i -g localtunnel next
 
 # Port
 ENV PORT=8080
