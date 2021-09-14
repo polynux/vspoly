@@ -35,5 +35,7 @@
   "editor.fontFamily": "Fira Code Retina",
   "editor.fontLigatures": true,
   "terminal.integrated.cursorStyle": "line",
-  "terminal.integrated.cursorBlinking": true
+  "terminal.integrated.cursorBlinking": true,
+  "vsicons.dontShowNewVersionMessage": true,
+  "keyboard.layout": "0000040C"
 }
